@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background-color: teal;
+  background-color: #0071BC;
 }
 #logo {
   display: block;

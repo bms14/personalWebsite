@@ -28,12 +28,12 @@ export default {
 .bm-menu {
   position: fixed;
   z-index: 1000;
-  background-color: #cacaca;
+  background-color: #0071BC;
   overflow-x: hidden;
   transition: 0.5s;
 }
 .bm-burger-bars {
-  background-color: #cacaca;
+  background-color: #0071BC;
 }
 .cross-style {
   position: absolute;
