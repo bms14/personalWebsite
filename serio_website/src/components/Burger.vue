@@ -3,10 +3,11 @@
     :closeOnNavigation="true"
     :burgerIcon="true"
     :crossIcon="true" 
+    width="250"
     id="navbar"
   >
     <router-link to="/"><img src="../assets/homeIcon.png" class="img" alt="Home"><span>Home</span></router-link>
-    <router-link to="/about"><img src="../assets/aboutIcon.png" class="img" alt="About"><span>About me</span></router-link>
+    <router-link to="/about"><img src="../assets/aboutIcon.png" class="img" alt="About"><span>About</span></router-link>
     <router-link to="/studies"><img src="../assets/studiesIcon.png" class="img" alt="Studies"><span>Studies</span></router-link>
     <router-link to="/certificates"><img src="../assets/certificateIcon.png" class="img" alt="Certificate"><span>Certificates</span></router-link>
   </Slide>
@@ -26,21 +27,23 @@ export default {
 <style>
 .bm-menu {
   position: fixed;
-  /* opacity: 70%; */
   z-index: 1000;
-  background-color: #899998;
+  background-color: #cacaca;
   overflow-x: hidden;
   transition: 0.5s;
 }
 .bm-burger-bars {
-  background-color: #899998;
+  background-color: #cacaca;
 }
 .cross-style {
   position: absolute;
   top: 12px;
-  right: 2px;
+  right: 3px;
   cursor: pointer;
 } 
+.bm-cross {
+  background: white;
+}
 .bm-item-list > * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
