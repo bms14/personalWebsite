@@ -2,31 +2,33 @@
   <div id="app">
     <Burger />
     <router-view />
-    <!-- <div id="footer">Footer</div> -->
+    <Icons />
+    <div id="footer">2021 © Bruno Sério</div>
   </div>
 </template>
 
 <script>
 
 import Burger from './components/Burger.vue';
+import Icons from './components/Icons.vue';
 
 export default {
   name: "App",
   components: {
-    Burger
+    Burger,
+    Icons
   }
 };
 </script>
 
 
 <style>
-/* #footer {
+#footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  color: black;
   text-align: center;
-} */
+} 
 </style>

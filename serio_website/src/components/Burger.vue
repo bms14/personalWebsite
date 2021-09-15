@@ -4,6 +4,7 @@
     :burgerIcon="true"
     :crossIcon="true" 
     width="250"
+    right="true"
     id="navbar"
   >
     <router-link to="/"><img src="../assets/homeIcon.png" class="img" alt="Home"><span>Home</span></router-link>
@@ -38,7 +39,7 @@ export default {
 .cross-style {
   position: absolute;
   top: 12px;
-  right: 3px;
+  left: 225px;
   cursor: pointer;
 } 
 .bm-cross {
