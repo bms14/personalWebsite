@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Burger />
     <router-view />
+    <Burger />
     <Icons />
     <div id="footer">2021 © Bruno Sério</div>
   </div>

@@ -8,9 +8,10 @@
     id="navbar"
   >
     <router-link to="/"><img src="../assets/homeIcon.png" class="img" alt="Home"><span>Home</span></router-link>
-    <router-link to="/about"><img src="../assets/aboutIcon.png" class="img" alt="About"><span>About</span></router-link>
+    <router-link to="/about"><img src="../assets/aboutIcon.png" class="img" alt="About"><span>About </span></router-link>
     <router-link to="/studies"><img src="../assets/studiesIcon.png" class="img" alt="Studies"><span>Studies</span></router-link>
     <router-link to="/certificates"><img src="../assets/certificateIcon.png" class="img" alt="Certificate"><span>Certificates</span></router-link>
+    <router-link to="/portfolio"><img src="../assets/portfolioIcon.png" class="img" alt="Portfolio"><span>Portfolio</span></router-link>
   </Slide>
 </template>
 
